@@ -4,7 +4,7 @@ An experiment with Git pre-commit hooks
 
 ## Hooks
 
-### Prohibit-commit-main.sh
+### prohibit-commit-main
 
 This hook prohibits for commiting directly to `main` and `master` branches.
 
