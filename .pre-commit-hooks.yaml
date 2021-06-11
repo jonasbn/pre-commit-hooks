@@ -1,0 +1,5 @@
+-   id: prohibit-commit-main
+    name: 'prohibit-commit-main'
+    entry: run-perlcritic.sh
+    language: 'script'
+    description: "This hook prohibits for commiting directly to main and master branches."
