@@ -1,5 +1,9 @@
 # Change log for pre-commit hook repository
 
+## 0.2.3 2021-06-13 Bug fix release
+
+- Bad naming of `pass-filenames`, it should read `pass_filenames`, addressed in this release
+
 ## 0.2.2 2021-06-13 Bug fix release
 
 - Introduced an error in 0.3.0, with the specification of `pass-filenames`, addressed in this release

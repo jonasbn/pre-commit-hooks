@@ -3,6 +3,6 @@
     entry: prohibit-commit-main.sh
     language: 'script'
     description: "This hook prohibits for commiting directly to main and master branches."
-    pass-filenames: false
+    pass_filenames: false
     stages:
     -   prepare-commit-msg
