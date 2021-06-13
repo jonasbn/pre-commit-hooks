@@ -1,8 +1,12 @@
 # Change log for pre-commit hook repository
 
-## 0.2.1 2021-06-13 Maintenance release
+## 0.2.2 2021-06-13 Bug fix release
 
-- Introduced an error in 0.3.1, with the specification of stages, addressed in this release
+- Introduced an error in 0.3.0, with the specification of `pass-filenames`, addressed in this release
+
+## 0.2.1 2021-06-13 Bug fix release
+
+- Introduced an error in 0.3.0, with the specification of stages, addressed in this release
 
 ## 0.3.0 2021-06-13 Maintenance release
 
