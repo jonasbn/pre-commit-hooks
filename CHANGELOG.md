@@ -1,10 +1,14 @@
 # Change log for pre-commit hook repository
 
+## 0.2.1 2021-06-13 Maintenance release
+
+- Introduced an error in 0.3.1, with the specification of stages, addressed in this release
+
 ## 0.3.0 2021-06-13 Maintenance release
 
 - Addressed some issues pointed out by [shellcheck](https://www.shellcheck.net/)
 
-## 0.2.0 2021-06-11 Bug fix release
+## 0.1.1 2021-06-11 Bug fix release
 
 - First tests with external repository demonstrated a bug, fixed in this release
 
