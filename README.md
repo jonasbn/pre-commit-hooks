@@ -6,7 +6,7 @@ An experiment with Git pre-commit hooks
 
 ### prohibit-commit-main
 
-This hook prohibits for commiting directly to `main` and `master` branches.
+This hook prohibits for committing directly to `main` and `master` branches.
 
 ```bash
 $ git commit CHANGELOG.md

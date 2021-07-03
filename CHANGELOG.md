@@ -20,9 +20,9 @@
 
 - Addressed some issues pointed out by [shellcheck](https://www.shellcheck.net/)
 
-- Added experiemental use of `stages` in attempt to isolate to a more contained evaluation
+- Added experimental use of `stages` in attempt to isolate to a more contained evaluation
 
-- Added experiemental use of `pass-filenames` in attempt to isolate to a more contained evaluation
+- Added experimental use of `pass-filenames` in attempt to isolate to a more contained evaluation
 
 ## 0.1.1 2021-06-11 Bug fix release
 
@@ -30,4 +30,4 @@
 
 ## 0.1.0 2021-06-11 Initial release
 
-- Basic pre-commit hooks for prohibiting commiting directly to master or main
+- Basic pre-commit hooks for prohibiting committing directly to master or main
