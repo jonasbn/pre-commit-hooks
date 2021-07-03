@@ -14,3 +14,9 @@ repos:
     -   id: shfmt
         args: ['-w', '-i', '4', '-ci']
     -   id: shellcheck
+-   repo: local
+    hooks:
+    -   id: spellcheck
+        name: Checking spelling
+        entry: spellcheck.sh
+        language: script

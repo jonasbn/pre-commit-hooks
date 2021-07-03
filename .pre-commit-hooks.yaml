@@ -4,3 +4,9 @@
     language: 'script'
     description: "This hook prohibits for commiting directly to main and master branches."
     pass_filenames: false
+-   id: spellcheck
+    name: 'spellcheck'
+    entry: spellcheck.sh
+    language: 'script'
+    description: "This hook checks spelling in eg. Markdown files using pyspelling"
+    pass_filenames: false
