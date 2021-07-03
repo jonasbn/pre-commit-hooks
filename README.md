@@ -19,6 +19,12 @@ The hook can be bypassed using the command line argument `-n`
 $ git commit -n -m "This stuff really need to be commited NOW"
 ```
 
+### spellcheck
+
+This hooks checks spelling using `pyspelling`
+
+For configuration please see [the GitHub Action][ghaction].
+
 ## RESOURCES AND REFERENCES
 
 - [The pre-commit website](https://pre-commit.com/)
@@ -29,3 +35,5 @@ $ git commit -n -m "This stuff really need to be commited NOW"
 ## LICENSE
 
 Please see the separate license file
+
+[ghaction]: https://github.com/rojopolis/spellcheck-github-actions

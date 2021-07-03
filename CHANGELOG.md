@@ -1,5 +1,9 @@
 # Change log for pre-commit hook repository
 
+## 0.4.0 2021-07-03 Feature release
+
+- Added initial version of pre-commit hook for checking spelling using `pyspelling`
+
 ## 0.3.0 2021-06-13 Bug fix release
 
 - Removed experimental feature with `stages` introduced in 0.2.0
