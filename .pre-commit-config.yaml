@@ -9,6 +9,9 @@ repos:
     -   id: check-executables-have-shebangs
     -   id: check-shebang-scripts-are-executable
     -   id: double-quote-string-fixer
+    -   id: no-commit-to-branch
+        name: "Do not commit to main"
+        args: [--branch, main]
 -   repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.27.1
     hooks:
