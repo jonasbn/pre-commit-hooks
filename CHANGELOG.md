@@ -1,5 +1,10 @@
 # Change log for pre-commit hook repository
 
+## 0.5.0 2021-08-15 Feature release
+
+- Improved handling of `pyspelling` configurations, to these match the use in the GitHub Action
+  [spellcheck documentation](https://github.com/rojopolis/spellcheck-github-actions)
+
 ## 0.4.0 2021-07-03 Feature release
 
 - Added initial version of pre-commit hook for checking spelling using `pyspelling`
