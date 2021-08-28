@@ -27,6 +27,15 @@ So I recommend using [that hook](https://github.com/pre-commit/pre-commit-hooks#
 
 This hooks checks spelling using `pyspelling`
 
+To enable add the following to your: `.pre-commit-config.yaml`
+
+```yaml
+-   repo: https://github.com/jonasbn/pre-commit-hooks
+    rev: v0.4.0
+    hooks:
+    -   id: spellcheck
+```
+
 For configuration please see [the GitHub Action][ghaction].
 
 ## RESOURCES AND REFERENCES
