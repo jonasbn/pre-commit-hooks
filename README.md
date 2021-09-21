@@ -8,7 +8,7 @@ An experiment with Git pre-commit hooks
 
 This hook prohibits for committing directly to `main` and `master` branches.
 
-```bash
+```text
 $ git commit CHANGELOG.md
 Committing directly to main/master branch is prohibited, use --no-verify / -n if you really insist
 ```
@@ -31,7 +31,7 @@ To enable add the following to your: `.pre-commit-config.yaml`
 
 ```yaml
 -   repo: https://github.com/jonasbn/pre-commit-hooks
-    rev: v0.4.0
+    rev: v0.5.0
     hooks:
     -   id: spellcheck
 ```
