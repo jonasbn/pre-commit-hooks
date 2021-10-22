@@ -1,4 +1,10 @@
-# Change log for pre-commit hook repository
+# Change log for the jonasbn/pre-commit hooks repository
+
+## 0.6.0 2021-10-22 Maintenance release
+
+- Added diagnostics section to the documentation after running into issues with shell and WSL
+- Added .gitattributes to _force_ the bash script `spellcheck.sh` to have lines terminated with `LF` over `CRLF`
+  My Git configuration of `autocrlf` set to `true` does not influence the update of the hooks
 
 ## 0.5.0 2021-08-15 Feature release
 
