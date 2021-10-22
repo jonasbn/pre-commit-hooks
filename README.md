@@ -50,7 +50,7 @@ If you observe this error:
 ... /.cache/pre-commit/repocwpzg79t/spellcheck.sh: 7: Syntax error: "elif" unexpected (expecting "then")
 ```
 
-It is due to the spellcheck shellscript being checked out with `CRLF` line-endings.
+It is due to the spellcheck shell script being checked out with `CRLF` line-endings.
 
 `dos2unix` can fix this, but it is not a sustainable solution since new it would have to be re-done on every update/reinstallation.
 
