@@ -38,6 +38,22 @@ To enable add the following to your: `.pre-commit-config.yaml`
 
 For configuration please see [the GitHub Action][ghaction].
 
+## DIAGNOSTICS
+
+### exit code: 2
+
+If you observe this error:
+
+```text
+: not found ... /.cache/pre-commit/repocwpzg79t/spellcheck.sh: 2:
+: not found ... /.cache/pre-commit/repocwpzg79t/spellcheck.sh: 4:
+... /.cache/pre-commit/repocwpzg79t/spellcheck.sh: 7: Syntax error: "elif" unexpected (expecting "then")
+```
+
+It is due to the spellcheck shellscript being checked out with `CRLF` line-endings.
+
+`dos2unix` can fix this, but it is not a sustainable solution since new it would have to be re-done on every update/reinstallation.
+
 ## RESOURCES AND REFERENCES
 
 - [The pre-commit website][pre-commit]
