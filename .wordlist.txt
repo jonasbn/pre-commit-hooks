@@ -3,3 +3,4 @@ pre
 shellcheck
 dev
 Chickity
+reinstallation
