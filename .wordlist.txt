@@ -4,3 +4,6 @@ shellcheck
 dev
 Chickity
 reinstallation
+gitattributes
+WSL
+jonasbn
